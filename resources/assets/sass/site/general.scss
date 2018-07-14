@@ -1,0 +1,171 @@
+// main:../styles.less
+
+.edit {
+    color: #f22 !important;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    @include transition();
+
+    &:hover {
+        color: $primary;
+        text-decoration: none;
+    }
+}
+
+a,
+h1,
+h2,
+h3,
+li,
+p {
+    color: $text;
+}
+
+body {
+    margin: 0;
+}
+
+html {
+    font-family: franklin-gothic-urw, Sans-Serif;
+    font-size: 16px;
+    letter-spacing: .5px;
+}
+
+h1 {
+    font-size: $font-size-h1;
+}
+
+h1,
+h2 {
+    font-family: octin-college;
+}
+
+h1,
+h2,
+h3,
+li,
+p {
+    cursor: default;
+}
+
+h2 {
+    font-size: $font-size-h2;
+}
+
+h3 {
+    font-size: $font-size-h3;
+}
+
+
+
+i {
+    vertical-align: middle;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+p {
+    font-size: $font-size-p;
+    line-height: 1.5;
+}
+
+ul {
+    list-style: none;
+}
+
+.btn {
+    background: $primary;
+    border: 3px solid $primary;
+    color: $white;
+    cursor: pointer;
+    font-family: octin-college;
+    font-size: 1rem;
+    padding: 0.5rem;
+    @include transition();
+
+    &:hover,
+    &.active {
+        background: $white;
+        @include box-shadow();
+        color: $primary;
+    }
+
+    a {
+        color: $white;
+    }
+}
+
+.btn-group {
+    .btn {
+        margin: 0 1em 1em;
+        width: 15em;
+    }
+
+    @media screen and (max-width: $s) {
+        .btn {
+            margin: 0 auto;
+        }
+    }
+}
+
+.clearfix {
+    &::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+}
+
+.font-oc {
+    font-family: octin-college;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+.offset-bg {
+    height: 85%;
+    opacity: 0.5;
+    position: absolute;
+    width: 85%;
+    z-index: -1;
+
+    &-back {
+        background-color: $primary;
+        left: 0;
+        top: 0;
+    }
+
+    &-front {
+        background-color: $primary-light;
+        bottom: 0;
+        right: 0;
+    }
+}
+
+.relative {
+    position: relative;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}

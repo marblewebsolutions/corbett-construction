@@ -20,5 +20,3 @@ Route::get('about', 'PageController@about');
 Route::get('contact', 'PageController@contact');
 Route::get('gallery/{interest?}', 'PageController@gallery');
 Route::get('services/{interest?}', 'PageController@services');
-
-Route::post('contact', 'PageController@mail');

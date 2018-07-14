@@ -1,0 +1,84 @@
+// main:../styles.less
+
+footer {
+    background: $primary;
+    padding: 0 $page-padding;
+
+    a, h2, li, p {
+        color: $white;
+    }
+
+    a {
+        &:hover {
+            color: $primary-light;
+        }
+    }
+
+    .content {
+        margin: auto;
+        max-width: $max-content-width;
+        padding: $content-padding-y 0;
+        position: relative;
+    }
+
+    .footer-contact,
+    .footer-site-map {
+        display: inline-block;
+        text-align: left;
+        vertical-align: top;
+    }
+
+    .footer-main {
+        text-align: center;
+    }
+
+    .footer-site-map {
+        padding: 0 2em 0 0;
+    }
+
+    .mws-credit {
+        text-align: right;
+
+        .llc,
+        .who {
+            color: $primary-light;
+            @include transition();
+        }
+
+        .mws-link {
+            &:hover {
+                .who {
+                    color: #ffd298;
+                }
+
+                .llc {
+                    color: #96e6ff;
+                }
+            }
+        }
+
+        .what {
+            color: $off-white;
+            display: block;
+            font-size: 14px;
+        }
+    }
+
+    @media screen and (max-width: $xs) {
+        .footer-contact {
+            .email {
+                font-size: 14px;
+            }
+        }
+
+        .footer-contact,
+        .footer-site-map {
+            display: block;
+            padding: 0 0 2em;
+        }
+
+        .footer-main {
+            text-align: left;
+        }
+    }
+}

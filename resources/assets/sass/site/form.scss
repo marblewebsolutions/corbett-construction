@@ -1,0 +1,70 @@
+// main: ../styles.less
+
+.alert {
+    background: aquamarine;
+    @include border();
+    box-sizing: border-box;
+    text-align: center;
+
+    &.alert-danger {
+        background: #f99;
+    }
+
+    &.alert-success {
+        background: #9f9;
+    }
+
+    li {
+        font-family: octin-college;
+        margin: .25em 0;
+    }
+
+    p {
+        font-family: octin-college;
+    }
+}
+
+.form-group {
+    input[type=email],
+    input[type=text] {
+        height: 40px;
+    }
+
+    input[type=email],
+    input[type=text],
+    textarea {
+        @include border();
+        box-sizing: border-box;
+        outline: none;
+        padding: 5px;
+        @include transition();
+        width: 100%;
+
+        &:focus {
+            border: 3px solid $primary;
+            @include box-shadow();
+        }
+
+        &:hover {
+            border: 3px solid $primary-light;
+            @include box-shadow();
+        }
+    }
+
+    input[type=submit],
+    .btn {
+        height: 40px;
+        -webkit-appearance: none;
+        width: 100%;
+    }
+
+    label {
+        color: $text;
+        display: block;
+    }
+
+    textarea {
+        resize: vertical;
+        transition: ease-in-out border 0.3s, ease-in-out box-shadow 0.3s;
+    }
+}

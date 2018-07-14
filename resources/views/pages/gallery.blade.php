@@ -16,8 +16,8 @@
 		<div class="content">
 			<div class="gallery-filter">
 				<p class="font-oc">Filter by Service:</p>
-				<ul class="clearfix">
-					@foreach($services as $service)
+				<ul>
+					@foreach($services as $index => $service)
 						<li class="btn {{ strtolower($interest) == str_replace(' ', '-', strtolower($service)) ? 'active' : '' }}">{{ strtoupper($service) }}</li>
 					@endforeach
 					<li class="btn">OTHER</li>

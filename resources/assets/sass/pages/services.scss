@@ -1,0 +1,110 @@
+// main: ../styles.less
+
+.services {
+    .service-list {
+        margin: auto;
+        width: 80%;
+    }
+
+    .service-item {
+        background: $white;
+        @include border();
+        box-sizing: border-box;
+        height: 6.5em;
+        overflow: hidden;
+        position: relative;
+        @include transition();
+
+        * {
+            cursor: pointer;
+        }
+
+        &:hover {
+            @include border(3px solid $primary);
+            @include box-shadow();
+            cursor: pointer;
+        }
+
+        &.active {
+            height: 8.5em;
+
+            i {
+                color: $primary;
+                @include transform(rotate(180deg));
+            }
+
+            .img {
+                height: 8.5em;
+                width: 50%;
+            }
+
+            .info {
+                box-sizing: border-box;
+                display: inline-block;
+            }
+        }
+
+        &-title {
+            background-color: $primary;
+            @include clip-path(polygon(0 0, 100% 0, 85% 100%, 0 100%));
+            font-family: octin-college;
+            left: 0;
+            padding: 0.5em;
+            position: absolute;
+            top: 0;
+            @include transition();
+            width: 50%;
+            z-index: 1;
+
+            p {
+                color: $white;
+                font-size: .83em;
+                text-align: left;
+                @include transition();
+            }
+        }
+
+        i {
+            bottom: 0;
+            color: $white;
+            font-size: 36px;
+            left: 0;
+            position: absolute;
+            text-align: center;
+            @include transition();
+            width: 100%;
+        }
+
+        .img {
+            display: inline-block;
+            height: 6.5em;
+            width: 100%;
+            @include transition();
+            vertical-align: middle;
+
+            img {
+                @include grayscale();
+                height: 100%;
+                object-fit: cover;
+                width: 100%;
+            }
+        }
+
+        .info {
+            padding: .5em 0 .5em 1em;
+            vertical-align: middle;
+        }
+    }
+
+    @media screen and (max-width: $sm) {
+        .service-item {
+            &.active {
+                height: 16em;
+
+                .img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

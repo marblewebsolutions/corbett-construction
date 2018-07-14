@@ -1,0 +1,34 @@
+@mixin border($border: 3px solid $accent) {
+    border: $border;
+}
+
+@mixin border-radius($border-radius) {
+    border-radius: $border-radius;
+}
+
+@mixin box-shadow($box-shadow: 0 2px 15px 0 $accent) {
+    box-shadow: $box-shadow;
+}
+
+@mixin clip-path($path) {
+    clip-path: $path;
+}
+
+@mixin grayscale($gray: 100%) {
+    filter: grayscale($gray);
+}
+
+@mixin select($select) {
+    user-select: $select;
+}
+
+@mixin transform($transform) {
+    transform: $transform;
+}
+
+@mixin transition($transition: ease-in-out all 0.3s) {
+    transition: $transition;
+}
+@mixin transitionTwo($transition1, $transition2) {
+    transition: $transition1, $transition2;
+}

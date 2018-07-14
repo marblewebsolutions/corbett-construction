@@ -1,0 +1,133 @@
+// main:../styles.less
+
+.navigation {
+    background-color: $navigation;
+    @include box-shadow(0 2px 15px 0 $accent);
+    box-sizing: border-box;
+    min-width: $min-page-width;
+    position: fixed;
+    width: 100%;
+    z-index: $navigation-z;
+
+    .logo {
+        margin-bottom: .5em;
+        max-width: 9em;
+        width: 100%;
+
+        img {
+            height: 100%;
+            object-fit: cover;
+            width: 100%;
+        }
+    }
+
+    .mobile-toggle {
+        display: none;
+
+        &:hover {
+            cursor: pointer;
+
+            .line {
+                background: $primary;
+            }
+        }
+
+        .line {
+            background: $text;
+            height: 3px;
+            margin: 5px;
+            @include transition();
+            width: 2em;
+        }
+    }
+
+    .navigation-left {
+        box-sizing: border-box;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .navigation-left, .navigation-right {
+        box-sizing: border-box;
+    }
+
+    .navigation-links {
+        display: inline-block;
+        font-family: octin-college;
+        vertical-align: middle;
+
+        .nav-item {
+            display: inline-block;
+            vertical-align: middle;
+
+            &.active {
+                a {
+                    color: $primary;
+                }
+            }
+        }
+    }
+
+    .navigation-right {
+        float: right;
+        text-align: right;
+    }
+
+    @media screen and (max-width: $s) {
+        .logo {
+            margin-bottom: 0;
+            margin-top: .1em;
+            width: 5.25em;
+        }
+
+        .mobile-toggle {
+            display: block;
+        }
+
+        .navigation-left {
+        }
+
+        .navigation-right {
+
+        }
+
+        .navigation-links {
+            display: none;
+        }
+
+        .navigation-right-cont {
+            display: none;
+        }
+    }
+}
+
+.mobile-navigation {
+    background: $navigation;
+    box-sizing: border-box;
+    height: 100%;
+    overflow-x: hidden;
+    padding-top: $navigation-height;
+    position: fixed;
+    right: 0;
+    text-align: right;
+    top: 0;
+    @include transition();
+    width: 0;
+    z-index: $mobile-navigation-z;
+
+    &.active {
+        width: 310px;
+    }
+
+    .navigation-links {
+        .nav-item {
+            margin-bottom: 1em;
+
+            &.active {
+                a {
+                    color: $primary;
+                }
+            }
+        }
+    }
+}

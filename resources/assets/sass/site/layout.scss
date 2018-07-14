@@ -1,0 +1,81 @@
+// main:../styles.less
+
+.block {
+    padding: 0 $page-padding;
+
+    &:first-child {
+        .content {
+            padding: 3.5em 0 $content-padding-y;
+        }
+    }
+
+    &:last-child {
+        .content {
+            padding: $content-padding-y 0 4em;
+        }
+    }
+
+    &.header {
+        h1 {
+            color: $primary;
+            text-align: center;
+        }
+    }
+
+    &-title {
+        color: $primary;
+        text-align: center;
+    }
+
+    .content {
+        margin: auto;
+        max-width: $max-content-width;
+        padding: $content-padding-y 0;
+        position: relative;
+
+        &::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    }
+}
+
+.col {
+    &-2 {
+        width: 50%;
+    }
+
+    &-3 {
+        width: calc(100% / 3);
+    }
+
+    &-4 {
+        width: 25%;
+    }
+}
+
+.col-2,
+.col-3,
+.col-4 {
+    box-sizing: border-box;
+    float: left;
+    position: relative;
+}
+
+.main {
+    padding-top: $navigation-height;
+    @include transition();
+}
+
+.view {
+    min-width: $min-page-width;
+}
+
+@media screen and (max-width: $s) {
+    .col-2,
+    .col-3,
+    .col-4 {
+        width: 100%;
+    }
+}

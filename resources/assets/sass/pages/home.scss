@@ -1,0 +1,182 @@
+// main: ../styles.less
+
+.home {
+    .contact {
+        .btn {
+            width: 50%;
+        }
+
+        .img {
+            box-sizing: border-box;
+            display: inline-block;
+            height: auto;
+            padding: 0 0 0 2em;
+            vertical-align: middle;
+            width: 50%;
+
+            img {
+                @include border(3px solid $primary);
+                height: 100%;
+                object-fit: cover;
+                width: 100%;
+            }
+        }
+
+        .text {
+            box-sizing: border-box;
+            display: inline-block;
+            text-align: center;
+            vertical-align: middle;
+            width: 49%;
+        }
+    }
+
+    .services {
+        .btn {
+            bottom: -.75em;
+            position: absolute;
+            right: 25%;
+            width: 50%;
+            z-index: 1;
+        }
+    }
+
+    .services-list {
+        text-align: center;
+
+        .services-bg {
+            @include grayscale();
+            height: 100%;
+
+            &.additions {
+                background: url(/images/kitchen-10.jpg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            &.basement-remodeling {
+                background: url(/images/kitchen-10.jpg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            &.baths {
+                background: url(/images/kitchen-10.jpg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            &.decks {
+                background: url(/images/kitchen-10.jpg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            &.four-seasons-rooms {
+                background: url(/images/kitchen-10.jpg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            &.kitchens {
+                background: url(/images/kitchen-10.jpg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        }
+
+        .services-item {
+            background: $white;
+            border: solid 3px $accent;
+            box-sizing: border-box;
+            cursor: pointer;
+            display: inline-block;
+            font-family: octin-college;
+            height: 10em;
+            margin: 1em;
+            position: relative;
+            @include transition();
+            vertical-align: middle;
+            width: 16em;
+
+            &:hover {
+                .services-item-title {
+                    width: 14em;
+
+                    p {
+                        padding-left: 2em;
+                    }
+                }
+            }
+
+            &-title {
+                background-color: $primary;
+                @include clip-path(polygon(0 0, 100% 0, 85% 100%, 0 100%));
+                left: 0;
+                padding: 0.5em;
+                position: absolute;
+                top: 0;
+                @include transition();
+                width: 12em;
+
+                p {
+                    color: $white;
+                    cursor: pointer;
+                    font-size: .83em;
+                    text-align: left;
+                    @include transition();
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: $s) {
+        .contact {
+            .img {
+                padding: 2em 0 0;
+                width: 100%;
+            }
+
+            .text {
+                width: 100%;
+            }
+        }
+
+        .services {
+            .btn {
+                right: 15%;
+                width: 70%;
+            }
+        }
+    }
+
+    @media screen and (max-width: $xxs) {
+        .services-list {
+            .services-item {
+                margin-left: auto;
+                margin-right: auto;
+                width: 14em;
+
+                &:hover {
+                    .services-item-title {
+                        width: 12em;
+
+                        p {
+                            padding-left: 1.5em;
+                        }
+                    }
+                }
+
+                &-title {
+                    width: 10.5em;
+                }
+            }
+        }
+    }
+}

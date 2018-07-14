@@ -1,0 +1,91 @@
+// main:../styles.less
+
+.modal-container {
+    background: $black-trans-60;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    opacity: 0;
+    top: 0;
+    @include transition(.3s opacity ease-in-out);
+    width: 100vw;
+
+    &.active {
+        opacity: 1;
+        z-index: $modal-z;
+
+        .modal {
+            opacity: 1;
+        }
+    }
+
+    .modal {
+        background: $white;
+        @include border();
+        margin: -1000px auto 0;
+        position: relative;
+        opacity: 0;
+        overflow: hidden;
+
+        img {
+            display: inline-block;
+            height: inherit;
+            position: absolute;
+            top: 0;
+            @include transition();
+        }
+
+        .body {
+            background: $primary;
+            box-sizing: border-box;
+            position: relative;
+        }
+
+        .close {
+            color: $text;
+            cursor: pointer;
+            font-size: 2.75em;
+            position: absolute;
+            right: .5em;
+            top: 0;
+            @include transition();
+
+            &:hover {
+                color: $primary;
+                @include transform(rotate(90deg));
+            }
+        }
+
+        .header {
+            box-sizing: border-box;
+            padding: .5em;
+            position: relative;
+        }
+
+        .next {
+            right: 1%;
+        }
+
+        .next, .prev {
+            color: $white;
+            display: inline-block;
+            font-size: 3em;
+            top: 50%;
+            position: absolute;
+            z-index: 1;
+
+            &:hover {
+                color: $primary;
+            }
+        }
+
+        .prev {
+            left: 1%;
+        }
+
+        .title {
+            color: $primary;
+            display: inline-block;
+        }
+    }
+}

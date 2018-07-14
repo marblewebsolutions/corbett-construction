@@ -11,7 +11,7 @@ class PageController extends Controller {
 	
 	public function __construct()
     {
-        $this->services = ['Kitchens', 'Additions', 'Baths', 'Basement Remodeling', 'Decks', 'Four Seasons Rooms'];
+        $this->services = ['Kitchens', 'Additions', 'Baths', 'Basement Remodeling', 'Decks'];
     }
 	
     public function index() {
@@ -57,23 +57,5 @@ class PageController extends Controller {
 		];
 
 		return view('pages.services', $data);
-	}
-	
-	public function mail(MailContact $request) {		
-		$data = [
-			'name' => $request['name'], 
-			'email' => $request['email'], 
-			'msg' => $request['message'],
-			'phone' => $request['phone']
-		];
-		$subject = "Someone Contacted You: " . $request['name'];
-		
-		
-		Mail::send('emails.contactMsg', $data, function ($m)  use ($subject) {
-            $m->to('n.mikelsavage@gmail.com');
-			$m->subject($subject);
-        });
-		
-		return redirect()->back()->with('data', ['some kind of data']);
 	}
 }

@@ -1,0 +1,93 @@
+// main: ../styles.less
+
+// media queries
+$xxs: 420px;
+$xs: 576px;
+$s: 768px;
+$sm: 880px;
+$m: 992px;
+$l: 1200px;
+
+// font sizes
+$font-size-h1: 2.5rem;
+$font-size-h2: 2rem;
+$font-size-h3: 1.5rem;
+$font-size-p: 1rem;
+
+// specific things
+$page-padding: 8%;
+$content-padding-y: 1.75rem;
+$max-content-width: 64rem;
+$nav-right-height: 74px;
+$mobile-toggle-height: 40px;
+$min-page-width: 18rem;
+$navigation-height: 110px;
+
+// z-indexes
+$services-item-active-z: 10;
+$mobile-navigation-z: 900;
+$navigation-z: 1000;
+$modal-z: 1100;
+
+// spacing values
+$spacing: (
+  auto: auto,
+  0: 0,
+  xs: 0.5rem,
+  s: 1rem,
+  m: 2rem,
+  l: 3rem,
+  xl: 4rem
+);
+    
+@each $space, $size in $spacing {
+  // margin
+  .m-#{$space} {
+    margin: $size;
+  }
+  .mx-#{$space} {
+    margin-left: $size !important;
+    margin-right: $size !important;
+  }
+  .my-#{$space} {
+    margin-top: $size !important;
+    margin-bottom: $size !important;
+  }
+  .mt-#{$space} {
+    margin-top: $size !important;
+  }
+  .mr-#{$space} {
+    margin-right: $size !important;
+  }
+  .mb-#{$space} {
+    margin-bottom: $size !important;
+  }
+  .ml-#{$space} {
+    margin-left: $size !important;
+  }
+
+  // padding
+  .p-#{$space} {
+    padding: $size !important;
+  }
+  .px-#{$space} {
+    padding-left: $size !important;
+    padding-right: $size !important;
+  }
+  .py-#{$space} {
+    padding-top: $size !important;
+    padding-bottom: $size !important;
+  }
+  .pt-#{$space} {
+    padding-top: $size !important;
+  }
+  .pr-#{$space} {
+    padding-right: $size !important;
+  }
+  .pb-#{$space} {
+    padding-bottom: $size !important;
+  }
+  .pl-#{$space} {
+    padding-left: $size !important;
+  }
+}

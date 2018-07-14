@@ -1,0 +1,34 @@
+// main:../styles.less
+
+.contact {
+    .btn {
+        font-family: octin-college;
+    }
+
+    .form-group {
+        label {
+            color: $white;
+            font-family: octin-college;
+        }
+    }
+
+    .offset-bg {
+        opacity: .8;
+    }
+
+    @media screen and (max-width: $s) {
+        .col-2:first-child {
+            margin-bottom: 2em;
+        }
+    }
+
+    @media screen and (max-width: $xxs) {
+        .email {
+            font-size: 15px;
+
+            i {
+                font-size: 15px;
+            }
+        }
+    }
+}

@@ -1,0 +1,35 @@
+// raw colors
+$accent: #828186;
+$black: #000;
+$black-trans-80: rgba(0, 0, 0, .8);
+$black-trans-60: rgba(0, 0, 0, .6);
+$primary: rgba(0, 113, 61, 1);
+$primary-light: rgb(128, 184, 158);
+$off-white: #efefef;
+$white: #fff;
+
+// specific section colors
+$navigation: $off-white;
+$text: #555;
+
+$class-colors: (
+    accent: $accent,
+    black: $black,
+    primary: $primary,
+    white: $white
+);
+
+@each $class, $color in $class-colors {
+    .color-#{$class} {
+        color: $color;
+    }
+    .color-#{$class}-light {
+        color: lighten($color, 20%);
+    }
+    .bg-color-#{$class} {
+        background-color: $color;
+    }
+    .bg-color-#{$class}-light {
+        background-color: lighten($color, 20%);
+    }
+}
