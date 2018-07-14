@@ -1,0 +1,138 @@
+[13-Nov-2017 15:31:17 America/New_York] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/corbouqr/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/corbouqr/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('config')
+#1 /home/corbouqr/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('config')
+#2 /home/corbouqr/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('config', Array)
+#3 /home/corbouqr/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make('config', Array)
+#4 /home/corbouqr/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(110): Illuminate\Foundation\Application->make('config', Array)
+#5 /home/corbouqr/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(272): in /home/corbouqr/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[13-Nov-2017 15:47:21 America/New_York] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/corbouqr/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/corbouqr/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('config')
+#1 /home/corbouqr/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('config')
+#2 /home/corbouqr/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('config', Array)
+#3 /home/corbouqr/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make('config', Array)
+#4 /home/corbouqr/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(110): Illuminate\Foundation\Application->make('config', Array)
+#5 /home/corbouqr/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(272): in /home/corbouqr/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[13-Nov-2017 15:51:15 America/New_York] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/corbouqr/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/corbouqr/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('config')
+#1 /home/corbouqr/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('config')
+#2 /home/corbouqr/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('config', Array)
+#3 /home/corbouqr/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make('config', Array)
+#4 /home/corbouqr/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(110): Illuminate\Foundation\Application->make('config', Array)
+#5 /home/corbouqr/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(272): in /home/corbouqr/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[13-Nov-2017 15:52:06 America/New_York] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/corbouqr/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/corbouqr/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('config')
+#1 /home/corbouqr/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('config')
+#2 /home/corbouqr/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('config', Array)
+#3 /home/corbouqr/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make('config', Array)
+#4 /home/corbouqr/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(110): Illuminate\Foundation\Application->make('config', Array)
+#5 /home/corbouqr/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(272): in /home/corbouqr/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[13-Nov-2017 15:52:07 America/New_York] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/corbouqr/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/corbouqr/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('config')
+#1 /home/corbouqr/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('config')
+#2 /home/corbouqr/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('config', Array)
+#3 /home/corbouqr/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make('config', Array)
+#4 /home/corbouqr/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(110): Illuminate\Foundation\Application->make('config', Array)
+#5 /home/corbouqr/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(272): in /home/corbouqr/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[13-Nov-2017 15:52:08 America/New_York] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/corbouqr/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/corbouqr/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('config')
+#1 /home/corbouqr/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('config')
+#2 /home/corbouqr/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('config', Array)
+#3 /home/corbouqr/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make('config', Array)
+#4 /home/corbouqr/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(110): Illuminate\Foundation\Application->make('config', Array)
+#5 /home/corbouqr/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(272): in /home/corbouqr/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[13-Nov-2017 15:52:10 America/New_York] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/corbouqr/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/corbouqr/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('config')
+#1 /home/corbouqr/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('config')
+#2 /home/corbouqr/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('config', Array)
+#3 /home/corbouqr/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make('config', Array)
+#4 /home/corbouqr/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(110): Illuminate\Foundation\Application->make('config', Array)
+#5 /home/corbouqr/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(272): in /home/corbouqr/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[13-Nov-2017 16:12:50 America/New_York] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('config')
+#1 /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('config')
+#2 /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('config', Array)
+#3 /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make('config', Array)
+#4 /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(110): Illuminate\Foundation\Application->make('config', Array)
+#5 /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(272): app('config')
+#6 /home/corbouqr/app/vendor/laravel/fram in /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[13-Nov-2017 16:13:01 America/New_York] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('config')
+#1 /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('config')
+#2 /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('config', Array)
+#3 /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make('config', Array)
+#4 /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(110): Illuminate\Foundation\Application->make('config', Array)
+#5 /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(272): app('config')
+#6 /home/corbouqr/app/vendor/laravel/fram in /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[13-Nov-2017 16:13:02 America/New_York] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('config')
+#1 /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('config')
+#2 /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('config', Array)
+#3 /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make('config', Array)
+#4 /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(110): Illuminate\Foundation\Application->make('config', Array)
+#5 /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(272): app('config')
+#6 /home/corbouqr/app/vendor/laravel/fram in /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[13-Nov-2017 16:13:35 America/New_York] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('config')
+#1 /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('config')
+#2 /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('config', Array)
+#3 /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make('config', Array)
+#4 /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(110): Illuminate\Foundation\Application->make('config', Array)
+#5 /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(272): app('config')
+#6 /home/corbouqr/app/vendor/laravel/fram in /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[13-Nov-2017 16:14:30 America/New_York] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('config')
+#1 /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('config')
+#2 /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('config', Array)
+#3 /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make('config', Array)
+#4 /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(110): Illuminate\Foundation\Application->make('config', Array)
+#5 /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(272): app('config')
+#6 /home/corbouqr/app/vendor/laravel/fram in /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[13-Nov-2017 16:14:31 America/New_York] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('config')
+#1 /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('config')
+#2 /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('config', Array)
+#3 /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make('config', Array)
+#4 /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(110): Illuminate\Foundation\Application->make('config', Array)
+#5 /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(272): app('config')
+#6 /home/corbouqr/app/vendor/laravel/fram in /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[13-Nov-2017 16:14:32 America/New_York] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('config')
+#1 /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('config')
+#2 /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('config', Array)
+#3 /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make('config', Array)
+#4 /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(110): Illuminate\Foundation\Application->make('config', Array)
+#5 /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(272): app('config')
+#6 /home/corbouqr/app/vendor/laravel/fram in /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[13-Nov-2017 16:14:33 America/New_York] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('config')
+#1 /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('config')
+#2 /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('config', Array)
+#3 /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make('config', Array)
+#4 /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(110): Illuminate\Foundation\Application->make('config', Array)
+#5 /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(272): app('config')
+#6 /home/corbouqr/app/vendor/laravel/fram in /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[13-Nov-2017 16:14:33 America/New_York] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('config')
+#1 /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('config')
+#2 /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('config', Array)
+#3 /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make('config', Array)
+#4 /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(110): Illuminate\Foundation\Application->make('config', Array)
+#5 /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(272): app('config')
+#6 /home/corbouqr/app/vendor/laravel/fram in /home/corbouqr/app/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[23-Jan-2018 05:56:00 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\PageController::gallery() in /home/corbouqr/app/app/Http/Controllers/PageController.php on line 52
